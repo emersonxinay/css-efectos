@@ -1,0 +1,39 @@
+/* sombras para textos */
+/* p {
+  font-size: 75px;
+  color: white;
+  text-align: center;
+  /* para dar el peso del texto 
+  /* font-weight: bold; 
+  /* espacio entre letras 
+  /* letter-spacing: 1rem;
+  margin-top: 3px; 
+
+  /* ==> efectos sombra lo hace shadow 
+  /* text-shadow: black 10px 10px; 
+  /* ==> para un color mas oscuro de fondo  
+  /* text-shadow: 1px 1px 25px black; 
+  /* ==> para mantener el mismo efecto pero con otro color 
+  /* text-shadow: 1px 1px 5px black, 0 0 22px blue, 0 0 30px red; 
+
+  /* convirtiendo a mayuscula 
+  /* text-transform: uppercase;
+  text-shadow: black 4px 4px 1px; 
+
+
+} */
+
+/* sombras para objetos */
+
+p {
+  background-color: purple;
+  width: 400px;
+  height: 150px;
+  font-size: 70px;
+  /* el que hace toda la sombra a esta caja */
+  box-shadow: 10px 20px 20px;
+
+  /* ahora viceversa al anterior */
+  box-shadow: black 8px 11px 10px 1px inset;
+
+}

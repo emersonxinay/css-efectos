@@ -1,0 +1,27 @@
+#fondo {
+  padding: 25px;
+  border: 12px solid red;
+  width: 340px;
+  height: 280px;
+  font-size: 20px;
+  /* ===> valores para posicionar imagenes de fondo (top, rigth, botton, left, center) */
+  /* ===> y para poner tamañode imagen usa /50px o el valor que quieras */
+  /* background: url(compilando_oficial.png) center top /20% no-repeat, url(terminal.png) center center /20% no-repeat; */
+
+  /* ===> si quieres que este centrado dentro de todo el contenido la imagen */
+  /* background: url(terminal.png) center no-repeat;
+  background-size: contain; */
+
+  /* ===> poner imagen encima de otra  */
+  /* background: url(./compilando_oficial.png) center /20% no-repeat, url(./terminal.png) center/cover no-repeat;
+  */
+
+  /* ahora vamos hacer textos */
+  background-color: aqua;
+  /* esto es para identificar el margen con el padding */
+  background-clip: content-box;
+
+
+
+
+}

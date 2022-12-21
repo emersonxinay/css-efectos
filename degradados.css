@@ -1,0 +1,27 @@
+#degradado{
+  border: 2px solid black;
+  width: 480px;
+  height: 480px;
+  
+  /* ==> degradado lineaal */
+  /* background: linear-gradient( orange, red, blue 60%); */
+  /* ==> para que se repitan linealmente */
+  /* background: repeating-linear-gradient(blue, purple, yellow 10%); */
+  /* ==> para que se repitan radialmente */
+  /* background: repeating-radial-gradient(blue, purple, yellow 10%); */
+  /* ==> para que se forme circularmente */
+  /* background:radial-gradient(blue, purple, yellow ); */
+  /* ==> para generar degradado de acuerdo a una posicón especifica */
+  /* background: radial-gradient( circle at top right ,  blue, purple, yellow); */
+  /* ===> para tener lineas verticales, diagonales u horizontales  saber que solo dependen de los grados
+  45deg = diagonales, 90deg = verticales, 180deg = horizontales
+  */
+  background: repeating-linear-gradient(
+    180deg, blue, blue 10px, yellow 10px, yellow 20px
+    );
+
+
+
+
+
+}

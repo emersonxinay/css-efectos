@@ -1,0 +1,1 @@
+link de css avanzado: https://www.youtube.com/watch?v=m4b2MKRzTXs&list=PLg9145ptuAihoxLk6_fPLz0zD4o1S92ev&index=6

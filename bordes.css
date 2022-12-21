@@ -1,0 +1,25 @@
+#b {
+  border: 20px solid greenyellow;
+  width: 250px;
+  height: 250px;
+  font-size: 22px;
+  padding: 20px;
+  background-color: blue;
+  color: white;
+  /* ingresamos imagen en bordes */
+  border-image: url(compilando_oficial.png) 120 stretch;
+
+  /* =====> lo que sigue es algo detallado con bordes */
+  /* border-image-source: url(compilando_oficial.png); */
+
+  /* cortamos la imagen
+  border-image-slice: 45%;
+  /* para hacer que se repita la imagen y se ajuste mejor 
+  border-image-repeat: repeat round;
+  /* controlando el ancho de imagen de border 
+  border-image-width: 30px;
+  /* imagen para que se ubique fuera del contenido del elemento 
+  border-image-outset: 10px; */
+
+
+}
